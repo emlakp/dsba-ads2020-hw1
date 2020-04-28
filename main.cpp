@@ -15,7 +15,7 @@ void experiment(std::ofstream& results, size_t upperlimit)
     double time;
     double result = 0;
 
-    results << "Karatsuba," << "GradeSchool," << "DivConquer" << std::endl;
+    results << "Digits," << "Karatsuba," << "GradeSchool," << "DivConquer" << std::endl;
     size_t j = 1;
     while (j < upperlimit)
     {
